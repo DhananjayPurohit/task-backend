@@ -1,4 +1,4 @@
-# task-backend
+# Backend for GitHub Browser App
 
 Backend for GitHub browser app deployed on heroku (https://secret-everglades-26382.herokuapp.com/)
 
