@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser());
 
 app.listen(process.env.PORT || 8080, () => {
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+    console.log("Express server listening on" + process.env.PORT);
 });
 
 const connectionString = 'mongodb+srv://dbuser:dbuser@cluster0.t8txc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
